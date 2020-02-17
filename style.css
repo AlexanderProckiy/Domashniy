@@ -18,7 +18,7 @@ body {
 
 .text {
     width: 300px;
-    height: 200px;
+    height: 150px;
     border: 1px solid blue;
     margin-top: 100px;
     margin-left: 100px;
@@ -26,7 +26,9 @@ body {
     font-size: 30px;
     line-height: 30px;
     background-color: burlywood;
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 @font-face {
     font-family: Creattiion Demo;
@@ -69,7 +71,8 @@ p:hover::before {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: darkkhaki;
+    background-color: gray;
     opacity: 0.4;
     border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
 }
