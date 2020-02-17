@@ -29,7 +29,13 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    float: left;
+    
 }
+.text:hover {
+    transform: scale(1.5);
+}    
+
 @font-face {
     font-family: Creattiion Demo;
     src: url(./Fonts/Creattion\ Demo.otf);
@@ -48,7 +54,10 @@ p {
     line-height: 35px;
     background-color: coral;
     overflow: hidden;
-}   
+    float: left;
+    
+}
+
 @font-face {
     font-family: FunnyFrank;
     src: url(./Fonts/17709.otf);
@@ -63,6 +72,9 @@ h6 {
     font-size: 25px;
     line-height: 30px;
     background-color: darkgray;
+    overflow-y: scroll;
+    text-shadow: green 5px 5px 10px;
+    float: left;
 }        
 p:hover::before {
     content: '';
@@ -75,4 +87,133 @@ p:hover::before {
     opacity: 0.4;
     border-radius: 50% 50% 50% 50%;
     cursor: pointer;
+    
 }
+p:hover {
+    transform: rotate(25deg);
+}
+.trans {
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    height: 150px;
+    width: 100%;
+    
+}
+.trans1 {
+  height: 50px;
+  width: 300px;  
+  background: #808991;
+  color: #FFF;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  
+}
+.trans1:hover {
+    background: #D0D941;
+    color: #000;
+    cursor: pointer;
+}
+.trans2 {
+    height: 50px;
+    width: 300px;  
+    background: #808991;
+    color: #FFF;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+  }
+  .trans2:hover {
+      background: #D0D941;
+      color: #000;
+      cursor: pointer;
+      transition: all 2s;
+  }
+  .trans3 {
+    height: 50px;
+    width: 300px;  
+    background: #808991;
+    color: #FFF;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+        
+  }
+  .trans3:hover {
+      background: #D0D941;
+      color: #000;
+      cursor: pointer;
+      transform: scaleX(1.2);
+      transition: all 0.5s;
+  }
+  .trans4 {
+    height: 50px;
+    width: 300px;  
+    background: #808991;
+    color: #FFF;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+  }
+  .trans4:hover {
+      background: #D0D941;
+      color: #000;
+      cursor: pointer;
+      transform: translate(-20px, 20px);
+      transition: all 0.5s;
+  }
+  .trans5 {
+    height: 50px;
+    width: 300px;  
+    background: #808991;
+    color: #FFF;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+  }
+  .trans5:hover {
+      background: #D0D941;
+      color: #000;
+      cursor: pointer;
+      transform: rotate(720deg);
+      transition: all 0.5s;
+  }
+  .trans6 {
+    height: 50px;
+    width: 300px;  
+    background: #808991;
+    color: #FFF;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+  }
+  .trans6:hover {
+      background: #D0D941;
+      color: #000;
+      cursor: pointer;
+      transform: scaleX(-1);
+      transition: all 0.8s;
+  }
